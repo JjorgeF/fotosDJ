@@ -1,1 +1,1 @@
-#Esboço da site
+#Esboco da site
