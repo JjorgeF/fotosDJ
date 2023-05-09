@@ -1,0 +1,40 @@
+* {
+
+}
+
+body {
+    text-align: center;
+}
+
+nav {
+    float: ;
+}
+
+header {
+    text-align: end;
+
+    background-color: red;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+
+    background-color: green;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sectionProjetos {
+    display: inline-block;
+
+    background-color: blue;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
