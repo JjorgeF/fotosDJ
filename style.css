@@ -1,40 +1,97 @@
 * {
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    text-align: center;
 }
 
-nav {
-    float: ;
+main {
+    width: ;
+    text-align: center;
+    background: #23232e;
+    height: 92vh;
+}
+
+body {
+    /*background-image: linear-gradient(45deg,grey,#1b262a, #ed8761, red);*/
+    text-align: ;
 }
 
 header {
-    text-align: end;
-
     background-color: red;
 }
 
-nav li {
-    display: inline-block;
-    padding: 10px 20px 10px 20px;
+.logo {
 
-    background-color: green;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 8vh;
+    
+}
+
+.navMenu {
+    list-style: none;
+    display: flex;
+}
+
+.navMenu li {
+    background-color: yellow;
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+}
+
+.navMenu ul {
+    display: flex;
+    list-style: none;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 .sectionProjetos {
     display: inline-block;
-
+    padding-top: 10px;
+    width: 60vw;
     background-color: blue;
 }
+.sectionNatura, .sectionLacoste, .sectionCoca {
+    display: flex;
+}
 
-img {
+.ao {
+    margin-top: -20px;
+    /*width: 80vw;
+    height: 20vh;
+    overflow: auto;
+    padding: 20px;*/
+}
+
+section img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+footer {
+    background-color: yellow;
+}
+
+/*----@media query----*/
+@media (max-width: 999px) {
+    .jorge, .denilson, .projetos, .home {
+        display: none;
+    }
+}
+
+@media (max-width: 888px) {
+    .logo {
+        text-align: center;
+    }
 }
