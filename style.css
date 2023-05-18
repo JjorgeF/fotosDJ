@@ -3,18 +3,19 @@
 }
 
 body {
+    background-color: 	#40E0D0;
 }
 
 main {
-    width: ;
     text-align: center;
-    background: #23232e;
-    height: 92vh;
+    /* background: #23232e; */
+    height: ;
 }
 
 body {
     /*background-image: linear-gradient(45deg,grey,#1b262a, #ed8761, red);*/
     text-align: ;
+    width: ;
 }
 
 header {
@@ -58,7 +59,7 @@ a {
 .sectionProjetos {
     display: inline-block;
     padding-top: 10px;
-    width: 60vw;
+    width: 85vw;
     background-color: blue;
 }
 .sectionNatura, .sectionLacoste, .sectionCoca {
@@ -85,7 +86,7 @@ footer {
 
 /*----@media query----*/
 @media (max-width: 999px) {
-    .jorge, .denilson, .projetos, .home {
+    .jorge, .denilson {
         display: none;
     }
 }

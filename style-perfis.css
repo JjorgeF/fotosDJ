@@ -1,0 +1,44 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+.apresentacao {
+    display: column;
+    background-color: black;
+    border-radius: 20px;
+    max-width: ;
+}
+
+.texto-apresentacao {
+    font-size: 40px;
+}
+
+.texto-apresentacao p {
+    padding: 30px 0px 0px 30px;
+}
+
+.atividades {
+    display: flex;
+    gap: 20px;
+}
+
+.button1, .button2, .button3 {
+    font-size: 40px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.button1 {
+    background-color: rgb(105, 212, 151);
+}
+
+.button2 {
+    background-color: rgb(203, 212, 105);
+}
+
+.button3 {
+    background-color: rgb(212, 105, 105);
+}
